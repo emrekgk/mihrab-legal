@@ -33,8 +33,12 @@ Reklam kimliği (iOS IDFA / Android Reklam Kimliği) kullanılmaz.</p>
 görünmesini istediğiniz ad.</p>
 <p><b>Apple ile Giriş (yalnız iOS, isteğe bağlı):</b> Kullanırsanız, hesabınızı yeni
 telefona taşıyabilmek için Apple'ın verdiği anonim kullanıcı kimliği saklanır.</p>
-<p><b>Ülke:</b> Ülke sıralaması için yalnızca ülke kodunuz (ör. "TR") sunucuya
-gönderilir. Şehir, ilçe ve koordinat bilgileriniz sunucuya <b>gönderilmez</b>.</p>
+<p><b>Ülke ve il:</b> Ülke kodunuz (ör. "TR") ve şehir sıralaması için bulunduğunuz
+<b>ilin adı</b> (ör. "İstanbul") sunucuya gönderilir. İl adınız yalnızca şehir
+sıralamasında, adınızın yanında değil o ilin listesinde yer almanızla diğer
+kullanıcılara görünür; başka hiçbir ekranda gösterilmez. Bunu Ayarlar'daki "Şehrim
+sıralamada görünsün" anahtarıyla istediğiniz an kapatabilirsiniz. İlçe, mahalle ve
+koordinat bilgileriniz sunucuya <b>gönderilmez</b>.</p>
 <p><b>Tercihler:</b> Sunucu bildirimlerinin dilini belirlemek için uygulama diliniz
 ve vakit hesaplama yöntemi tercihiniz saklanır.</p>
 <p><b>İbadet etkinliği:</b> Namaz onayları, zikir sayıları, kaza kayıtları ve bunlardan
@@ -64,7 +68,7 @@ değerlendirilebilmesi için şikayet eden ve edilen hesabın kimliği saklanır
 <b>yaklaşık konum</b> izni istenir. Bulunduğunuz şehrin adını ekranda
 gösterebilmek için telefonunuz koordinatlarınızı işletim sisteminin konum
 hizmetine (iPhone'da Apple, Android'de Google) iletir; bu işlem ilgili şirketin
-gizlilik koşullarına tabidir. Sunucumuza yalnızca ülke kodunuz gider. Konum izni
+gizlilik koşullarına tabidir. Sunucumuza yalnızca ülke kodunuz ve il adınız gider. Konum izni
 vermezseniz Uygulama şehir seçimiyle çalışmaya devam eder.</p>
 
 <h3>Üçüncü Taraf Hizmetler</h3>
@@ -122,8 +126,12 @@ No advertising identifier (iOS IDFA / Android Advertising ID) is used.</p>
 khatms and the dua feed.</p>
 <p><b>Sign in with Apple (iOS only, optional):</b> If you use it, the anonymous
 user ID issued by Apple is stored so you can move your account to a new phone.</p>
-<p><b>Country:</b> Only your country code (e.g. "TR") is sent to our server for
-the country leaderboard. Your city, district and coordinates are <b>never</b> sent.</p>
+<p><b>Country and province:</b> Your country code (e.g. "TR") and, for the city
+leaderboard, the <b>name of your province</b> (e.g. "Istanbul") are sent to our server.
+Your province is visible to other users only through your appearing in that province's
+leaderboard and is shown on no other screen. You can turn this off at any time with the
+"Show my city in the ranking" switch in Settings. Your district, neighborhood and
+coordinates are <b>never</b> sent.</p>
 <p><b>Preferences:</b> Your app language (used for the language of server
 notifications) and your prayer-time calculation method preference are stored.</p>
 <p><b>Worship activity:</b> Prayer confirmations, dhikr counts, missed-prayer
@@ -154,7 +162,7 @@ and Qibla direction, and is never sent to our server. On Android only
 <b>approximate location</b> permission is requested. To display the name of your
 city, your phone sends your coordinates to the operating system's location
 service (Apple on iPhone, Google on Android), which is governed by that company's
-privacy terms. Only your country code reaches our server. If you decline location
+privacy terms. Only your country code and province name reach our server. If you decline location
 access, the App continues to work with manual city selection.</p>
 
 <h3>Third-Party Services</h3>
