@@ -18,7 +18,7 @@
 <body>
 
 <h1>Gizlilik Politikası</h1>
-<p class="muted">Son güncelleme: 11 Ekim 2026</p>
+<p class="muted">Son güncelleme: 17 Ekim 2026</p>
 
 <p>Bu politika, Vesile uygulamasının (iOS ve Android — "Uygulama") hangi verileri
 işlediğini ve bu verilerin nasıl korunduğunu açıklar. Uygulamayı geliştiren birey
@@ -28,7 +28,9 @@ toplamayı asgaride tutar.</p>
 <h3>Topladığımız Veriler</h3>
 <p><b>Cihaz tanımlayıcısı:</b> İlk açılışta rastgele üretilen anonim bir kimlik
 (UUID). Hesap oluşturmak ve puanlarınızı cihazınıza bağlamak için kullanılır.
-Reklam kimliği (iOS IDFA / Android Reklam Kimliği) kullanılmaz.</p>
+iPhone'da reklam kimliği (IDFA) kullanılmaz. Android'de (sürüm 1.6 ve sonrası) Google'ın
+reklam kimliği yalnız aşağıda anlatılan Firebase Analytics üzerinden reklam ölçümü için
+kullanılır; telefonunuzun ayarlarından sıfırlayabilir ya da silebilirsiniz.</p>
 <p><b>Kullanıcı adı (isteğe bağlı):</b> Sıralamada, hatimlerde ve dua akışında
 görünmesini istediğiniz ad.</p>
 <p><b>Apple ile Giriş (yalnız iOS, isteğe bağlı):</b> Kullanırsanız, hesabınızı yeni
@@ -78,7 +80,15 @@ kişisel verinizi biz göndermeyiz: döviz kurları (open.er-api.com), altın/g�
 fiyatları (Yahoo Finance), Kur'an seslendirmesi ve radyo (mp3quran.net,
 everyayah.com). Uygulama içi ayarlarınızın ve sayaçlarınızın yedeği, kendi
 hesabınızda tutulur: iPhone'da Apple iCloud, Android'de Google'ın cihaz yedeği.
-Uygulamada analitik, reklam veya izleme hizmeti <b>yoktur</b>.</p>
+iPhone uygulamasında analitik, reklam veya izleme hizmeti <b>yoktur</b>.</p>
+<p><b>Android — Google Firebase Analytics (sürüm 1.6 ve sonrası):</b> Uygulamanın açılması,
+karşılama ekranının tamamlanması gibi temel kullanım olayları; cihaz modeli, işletim sistemi
+sürümü gibi teknik bilgiler ve reklam kimliği Google'a gönderilir. Amaç yalnız reklamlarımızın
+kaç kişinin uygulamayı yükleyip açmasına yol açtığını ölçmek ve reklam bütçemizi doğru
+kullanmaktır. Namaz, zikir, dua, hatim gibi ibadet kayıtlarınız ve cihazınızın konum (GPS)
+bilgisi bu hizmete <b>gönderilmez</b>; Google bağlantı sırasında IP adresinden kaba bölge
+bilgisi çıkarabilir. Google'ın bu verileri işlemesi
+<a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a>'na tabidir.</p>
 
 <h3>Verilerin Saklanması</h3>
 <p>Veriler, güvenilir bir bulut altyapısında (Railway, Avrupa Birliği — Hollanda)
@@ -86,7 +96,9 @@ barındırılan sunucularımızda saklanır ve şifreli bağlantı (HTTPS) ile i
 
 <h3>Paylaşım ve Reklam</h3>
 <p>Verileriniz üçüncü taraflara <b>satılmaz, kiralanmaz ve pazarlama amacıyla
-paylaşılmaz</b>. Uygulamada üçüncü taraf reklam veya izleme (tracking) SDK'sı yoktur.</p>
+paylaşılmaz</b>. Uygulamada reklam <b>gösterilmez</b>. iPhone uygulamasında üçüncü taraf
+reklam veya izleme SDK'sı yoktur; Android uygulamasındaki Firebase Analytics yalnız kendi reklam
+kampanyalarımızın ölçümü için kullanılır.</p>
 
 <h3>Veri Silme</h3>
 <p>Hesabınızı ve sunucudaki tüm verilerinizi <b>uygulamanın içinden, anında</b>
@@ -112,7 +124,7 @@ adresine yazabilirsiniz.</p>
 <hr>
 
 <h1>Privacy Policy</h1>
-<p class="muted">Last updated: October 11, 2026</p>
+<p class="muted">Last updated: October 17, 2026</p>
 
 <p>This policy explains what data the Vesile app (iOS and Android — "the App")
 processes and how it is protected. We treat user privacy as a matter of
@@ -121,7 +133,9 @@ religious sensitivity and keep data collection to a minimum.</p>
 <h3>Data We Collect</h3>
 <p><b>Device identifier:</b> A random anonymous ID (UUID) generated on first
 launch, used to create your account and link your points to your device.
-No advertising identifier (iOS IDFA / Android Advertising ID) is used.</p>
+No advertising identifier (IDFA) is used on iPhone. On Android (version 1.6 and later),
+Google's Advertising ID is used only for ad measurement through Firebase Analytics, described
+below; you can reset or delete it in your phone's settings.</p>
 <p><b>Username (optional):</b> The name you choose to show on leaderboards,
 khatms and the dua feed.</p>
 <p><b>Sign in with Apple (iOS only, optional):</b> If you use it, the anonymous
@@ -171,8 +185,16 @@ following services, which may see your IP address during the connection; we do
 not send them your personal data: currency rates (open.er-api.com), gold/silver
 prices (Yahoo Finance), Qur'an recitation and radio (mp3quran.net,
 everyayah.com). A backup of your in-app settings and counters is kept in your own
-account: Apple iCloud on iPhone, Google's device backup on Android. The App
+account: Apple iCloud on iPhone, Google's device backup on Android. The iPhone app
 contains <b>no</b> analytics, advertising or tracking services.</p>
+<p><b>Android — Google Firebase Analytics (version 1.6 and later):</b> Basic usage events
+(such as opening the app and finishing the welcome screens), technical details such as device
+model and OS version, and the Advertising ID are sent to Google. The only purpose is to measure
+how many people install and open the app because of our ads, so we can spend our ad budget
+well. Your worship records (prayers, dhikr, duas, khatms) and your device's GPS location are
+<b>not</b> sent to this service; Google may infer an approximate region from your IP address
+during the connection. Google's processing is governed by the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
 <h3>Data Storage</h3>
 <p>Data is stored on our servers hosted on a reputable cloud platform (Railway,
@@ -180,7 +202,8 @@ European Union — the Netherlands) and transmitted over encrypted connections (
 
 <h3>Sharing and Advertising</h3>
 <p>Your data is <b>never sold, rented, or shared for marketing purposes</b>.
-The App contains no third-party advertising or tracking SDKs.</p>
+The App shows <b>no</b> ads. The iPhone app contains no third-party advertising or tracking
+SDKs; Firebase Analytics in the Android app is used only to measure our own ad campaigns.</p>
 
 <h3>Data Deletion</h3>
 <p>You can delete your account and all server data <b>instantly, inside the
